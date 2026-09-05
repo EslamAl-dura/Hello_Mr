@@ -12,4 +12,10 @@ int main(){
 	getline(cin,food);
 	cout<<"I like "<<food<<" too Mr."<<MR;
 	return 0;
+
+	// this code from here added by eslam aldura
+	int age;
+	cout<<"what is your age?";
+	getline(cin,age);
+	cout<<"your age is "<<age<<" years old Mr."<<MR;
 }
